@@ -10,6 +10,17 @@
 # then write them out to the screen. Show the total
 # as well.
 
+#set the first die and write it to screen
+dice_1 = rand(1..6)
+puts dice_1
+#set the second die and write it to screen
+dice_2 = rand (1..6)
+puts dice_2
+#create a variable for the total and write it to screen
+total_dice = dice_1 + dice_2
+puts "The first dice roll is #{dice_1}. The second dice roll is #{dice_2}.The total roll is #{total_dice}"
+
+
 # HINTS
 # Get a random number between 1 and 6 by doing:
 # rand(1..6)
